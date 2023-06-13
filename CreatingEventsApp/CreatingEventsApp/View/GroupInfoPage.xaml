@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreatingEventsApp.View.GroupInfoPage">
+    <ScrollView>
+        <Grid>
+            <StackLayout Margin="0, 10, 0, 0" HorizontalOptions="Start" VerticalOptions="Start">
+                <Button x:Name="btnBack" Text="Назад" TextColor="Black" BackgroundColor="Transparent"></Button>
+            </StackLayout>
+            <StackLayout Margin="0, 80, 0, 0" VerticalOptions="Start">
+                <Label x:Name="lbTest"/>
+            </StackLayout>
+            <StackLayout Margin="0, 80, 0, 0" VerticalOptions="Start">
+                <Label HorizontalOptions="Center" Padding="10" FontAttributes="Bold">Основная информация</Label>
+                <Label Padding="10" FontAttributes="Bold">Номер группы:</Label>
+                <Label Padding="10" FontAttributes="Bold">Место последней пары:</Label>
+                <Label Padding="10" FontAttributes="Bold">Название последней пары:</Label>
+                <Label Padding="10" FontAttributes="Bold">ФИО преподавателя:</Label>
+                <Label Padding="10" FontAttributes="Bold">Кабинет:</Label>
+                <Label Padding="10" FontAttributes="Bold">Время последней пары:</Label>
+                <Label Padding="10" FontAttributes="Bold">ФИО старосты:</Label>
+            </StackLayout>
+            <StackLayout Margin="0, 250, 0, 0" VerticalOptions="Center">
+                <Label HorizontalOptions="Center"  Padding="10" FontAttributes="Bold">Способы связи со старостой</Label>
+                <Label Padding="10" FontAttributes="Bold">Номер телефона:</Label>
+                <Label Padding="10" FontAttributes="Bold">Почта:</Label>
+                <Label Padding="10" FontAttributes="Bold">Vk:</Label>
+                <Label Padding="10" FontAttributes="Bold">Telegram:</Label>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

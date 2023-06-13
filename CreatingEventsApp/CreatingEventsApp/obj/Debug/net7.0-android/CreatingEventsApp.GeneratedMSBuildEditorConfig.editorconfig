@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = CreatingEventsApp
+build_property.ProjectDir = C:\Users\squor\source\repos\CreatingEventsApp\CreatingEventsApp\
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/CancelChangesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.CancelChangesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CancelChangesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CancelChangesPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/CreateEventInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.CreateEventInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CreateEventInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CreateEventInfoPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/CreateEventPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.CreateEventPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CreateEventPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CreateEventPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/EditEventPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.EditEventPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EditEventPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EditEventPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/EventHistoryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.EventHistoryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EventHistoryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EventHistoryPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/EventInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.EventInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EventInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EventInfoPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/EventsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.EventsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EventsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EventsPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/GroupInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.GroupInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\GroupInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\GroupInfoPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/PasswordRecoveryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.PasswordRecoveryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\PasswordRecoveryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\PasswordRecoveryPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ProfilePage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml
+
+[C:/Users/squor/source/repos/CreatingEventsApp/CreatingEventsApp/View/RestoreEventPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CreatingEventsApp.View.RestoreEventPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RestoreEventPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RestoreEventPage.xaml

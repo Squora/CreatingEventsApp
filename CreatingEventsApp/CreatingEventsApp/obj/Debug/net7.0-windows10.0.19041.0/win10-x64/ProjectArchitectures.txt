@@ -1,0 +1,1 @@
+C:\Users\squor\source\repos\CreatingEventsApp\CreatingEventsApp\CreatingEventsApp.csproj;x64

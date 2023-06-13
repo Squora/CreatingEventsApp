@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreatingEventsApp.View.EditEventPage"
+             Title="EditEventPage">
+    <Grid BackgroundColor="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" Margin="20, 10, 20, 0">
+            <Label Text="Название мероприятия" TextColor="Black"/>
+            <Frame WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eEventName" VerticalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Margin="20, 0, 20, 0">
+            <Label Text="Описание" TextColor="Black"/>
+            <Frame WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eEventDescription" VerticalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Margin="20, 0, 20, 0">
+            <Label Text="Адрес места проведения" TextColor="Black"/>
+            <Frame WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eEventLocation" VerticalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Margin="20, 0, 20, 0">
+            <Label Text="Организатор" TextColor="Black"/>
+            <Frame  WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eEventOrganizer" VerticalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Margin="20, 0, 20, 0">
+            <Label Text="Время начала" TextColor="Black"/>
+            <Entry x:Name="eEventStartTime" HorizontalOptions="Start" WidthRequest="150"/>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Margin="20, 0, 20, 0">
+            <Label HorizontalOptions="End" WidthRequest="150" Text="Время конца" TextColor="Black"/>
+            <Entry x:Name="eEventEndTime" HorizontalOptions="End" WidthRequest="150"/>
+        </StackLayout>
+        <StackLayout Grid.Row="5" VerticalOptions="Start" Spacing="10">
+            <Button x:Name="btnSave" Clicked="btnSave_Clicked" HorizontalOptions="Center" WidthRequest="350"
+                    HeightRequest="50" Text="Сохранить" BackgroundColor="Blue"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

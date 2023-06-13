@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreatingEventsApp.EventsPage"
+             xmlns:local="clr-namespace:CreatingEventsApp"
+             xmlns:models="clr-namespace:CreatingEventsApp.Models"
+             xmlns:view="clr-namespace:CreatingEventsApp.View">
+    <ScrollView>
+        <Grid>
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <StackLayout x:Name="EventsList" VerticalOptions="Start" Spacing="10" Margin="15">
+                    <Frame BorderColor="Black" Padding="10" CornerRadius="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="EventFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="70"/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Text="{Binding EventName}" />
+                                <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="End" Text="{Binding Organizer}" />
+                                <Label Grid.Row="1" Margin="0, 5, 0, 0" Grid.ColumnSpan="2" Text="{Binding Description}" />
+                                <Label Grid.Row="2" Grid.Column="0" Text="{Binding Location}" />
+                                <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="End">
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}{0} - {1}">
+                                            <Binding Path="StartTime" />
+                                            <Binding Path="EndTime" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" Spacing="10" Margin="15">
+                    <Frame BorderColor="Black" Padding="10" CornerRadius="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="CreateEventTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="70"/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Opacity="0.5" Text="Название мероприятия" />
+                                <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="End" Opacity="0.5" Text="Организатор" />
+                                <Label Grid.Row="1" Margin="0, 5, 0, 0" Grid.ColumnSpan="2" Opacity="0.5" Text="Краткое описание" />
+                                <Label Grid.Row="2" Grid.Column="0" Opacity="0.5" Text="Место проведения" />
+                                <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="End" Opacity="0.5" Text="Время проведения"/>
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Padding="35" Spacing="10" Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                    <Button x:Name="btnGroups" Text="Группы" TextColor="Black" BackgroundColor="Transparent" BorderColor="Transparent"></Button>
+                    <Button x:Name="btnEvents" Text="Мероприятия" TextColor="Blue" BackgroundColor="Transparent" BorderColor="Transparent"></Button>
+                    <Button x:Name="btnProfile" Text="Профиль" TextColor="Black" BackgroundColor="Transparent" BorderColor="Transparent"></Button>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

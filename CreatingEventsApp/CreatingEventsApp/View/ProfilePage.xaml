@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreatingEventsApp.ProfilePage">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+                <!--<Image WidthRequest="150" HeightRequest="150"/>-->
+                <Label Text="Имя Фамилия" FontSize="20"></Label>
+                <Button x:Name="Exit" Text="Выйти" FontSize="12" BackgroundColor="Transparent" TextColor="Red"
+                        Clicked="Exit_Clicked"/>
+            </StackLayout>
+            <StackLayout Margin="20, 0, 0, 0"  Grid.Row="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Email: "/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Пароль: " VerticalOptions="Center" HorizontalOptions="Start"/>
+                    <Button x:Name="btnChangePassword" Grid.Row="1" Grid.Column="1" Text="Сменить пароль" BackgroundColor="Transparent"
+                            TextColor="Gray" Opacity="0.7" HorizontalOptions="End" Clicked="btnChangePassword_Clicked"/>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Цвет темы: "/>
+                    <Label Grid.Row="3" Grid.Column="0" Text="Язык: "/>
+                    <Button x:Name="btnCheckEventHistory" Grid.Row="4" Grid.ColumnSpan="2" Text="Просмотреть историю мероприятий"
+                            BackgroundColor="Transparent" TextColor="Red" Clicked="btnCheckEventHistory_Clicked"/>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Версия приложения: " TextColor="Gray" Opacity="0.7"/>
+                    <Label Grid.Row="6" Grid.Column="0" Text="Последнее обновление: " TextColor="Gray" Opacity="0.7"/>
+                </Grid>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Padding="35" Spacing="10" Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Button x:Name="btnGroups" Text="Группы" TextColor="Black" BackgroundColor="Transparent" BorderColor="Transparent"></Button>
+                <Button x:Name="btnEvents" Text="Мероприятия" TextColor="Black" BackgroundColor="Transparent" BorderColor="Transparent"></Button>
+                <Button x:Name="btnProfile" Text="Профиль" TextColor="Blue" BackgroundColor="Transparent" BorderColor="Transparent"></Button>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

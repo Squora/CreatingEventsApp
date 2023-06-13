@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreatingEventsApp.View.EventHistoryPage"
+             xmlns:models="clr-namespace:CreatingEventsApp.Models"
+             xmlns:view="clr-namespace:CreatingEventsApp.View">
+    <ScrollView>
+        <Grid>
+            <StackLayout HorizontalOptions="Start">
+                <Button x:Name="btnBack" BackgroundColor="Transparent" TextColor="Black" Text="Назад" Clicked="btnBack_Clicked"/>
+            </StackLayout>
+            <StackLayout Padding="50">
+                <HorizontalStackLayout>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="End" HorizontalOptions="Start"
+                           HeightRequest="27"
+                       Text="ФИО удалил мероприятие"/>
+                    <Button x:Name="btnRestoreEvent" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End"
+                            BackgroundColor="Transparent" TextColor="Blue" Text="подробнее" Clicked="btnRestoreEvent_Clicked"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="End" HorizontalOptions="Start"
+                           HeightRequest="27"
+                       Text="ФИО редактировал мероприятие"/>
+                    <Button x:Name="btnСancelСhanges" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End"
+                            BackgroundColor="Transparent" TextColor="Blue" Text="подробнее" Clicked="btnСancelСhanges_Clicked"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="End" HorizontalOptions="Start"
+                           HeightRequest="27"
+                       Text="ФИО создал мероприятие"/>
+                    <Button x:Name="btnCreateEvent" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End"
+                            BackgroundColor="Transparent" TextColor="Blue" Text="подробнее" Clicked="btnCreateEvent_Clicked"/>
+                </HorizontalStackLayout>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

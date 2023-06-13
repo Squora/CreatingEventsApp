@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreatingEventsApp.View.RegisterPage">
+    <Grid BackgroundColor="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" Margin="20, 10, 20, 0">
+            <Label Text="Имя" TextColor="Black"/>
+            <Frame WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eName" VerticalOptions="Center" Keyboard="Text"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Margin="20, 0, 20, 0">
+            <Label Text="Фамилия" TextColor="Black"/>
+            <Frame WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eSurname" VerticalOptions="Center" Keyboard="Text"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Margin="20, 0, 20, 0">
+            <Label Text="Email" TextColor="Black"/>
+            <Frame WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eEmail" VerticalOptions="Center" Keyboard="Email"/>
+            </Frame>
+
+        </StackLayout>
+        <StackLayout Grid.Row="3" Margin="20, 0, 20, 0">
+            <Label Text="Пароль" TextColor="Black"/>
+            <Frame  WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="ePassword" VerticalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Margin="20, 0, 20, 0">
+            <Label Text="Повторите пароль" TextColor="Black"/>
+            <Frame  WidthRequest="350" HeightRequest="80" BorderColor="White" CornerRadius="5">
+                <Entry x:Name="eRepeatedPassword" VerticalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="5">
+            <Button x:Name="btnRegister" HorizontalOptions="Center" WidthRequest="350" HeightRequest="50" 
+                    Text="Зарегистрироваться" BackgroundColor="Green" Clicked="btnRegister_Clicked"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
